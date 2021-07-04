@@ -9,12 +9,13 @@ h1{
    
 }
 h2{
-    font-size: 25px;
+    font-size: 40px;
 }
+
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     
     display: flex;  
     margin-bottom: 100px; 
@@ -25,6 +26,7 @@ section{
     margin-bottom: 10px;
     padding-left: 5%;
     text-align: justify;
+  
 
 }
 .half-width img{
@@ -62,5 +64,19 @@ p{
     background-image: url(images/dream.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-top: -100px;
+   
+}
+.experience-item{
+    width: 40%;
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.experiance-area{
+    background-image: url(images/e.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
 }
