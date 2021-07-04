@@ -73,10 +73,25 @@ p{
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    
+    
 }
 .experiance-area{
     background-image: url(images/e.png);
     background-repeat: no-repeat;
-    background-position: left;
-    
+    background-position: left;  
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(#dd7b20, #d8360d);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(#2735b3, #4d9f0c);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+   color: color: #26c5ff;;
 }
